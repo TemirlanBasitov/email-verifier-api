@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 public class ApiKeyFilter implements WebFilter {
 
     private static final String API_KEY_HEADER = "X-API-KEY";
-    private static final String VALID_API_KEY = "temir";
+    private static final String VALID_API_KEY = "temix";
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, WebFilterChain chain) {
